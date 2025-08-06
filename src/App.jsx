@@ -222,7 +222,7 @@ function App() {
               </Button>
               
               <a
-                href="https://github.com/Gaurimusmade/email-sender"
+                href="https://github.com/Gaurimusmade/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700 transition-colors"
