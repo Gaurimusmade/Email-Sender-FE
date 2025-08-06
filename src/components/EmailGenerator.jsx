@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Mail, Users } from 'lucide-react';
 import Button from './Button';
-import Input from './Input';
 import Textarea from './Textarea';
 import Select from './Select';
 import Card from './Card';

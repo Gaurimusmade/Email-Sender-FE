@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://email-sender-be.vercel.app/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://email-sender-1lwfquqqy-gauris-projects-6c76491a.vercel.app';
 
 // Create axios instance with default config
 const apiClient = axios.create({
@@ -105,4 +105,5 @@ class ApiService {
   }
 }
 
-export default new ApiService();
+const apiService = new ApiService();
+export default apiService;
